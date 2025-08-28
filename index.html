@@ -18,6 +18,10 @@
 			body {
 				background: white;
 				font-family: "Bitter", serif;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				height: auto;
 			}
 
 			* {
@@ -35,12 +39,13 @@
 
 			.wrapper {
 				width: auto;
+				height: auto;
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				min-height: auto;
-				padding: 10px;
 				background-size: cover;
+				overflow: hidden;
+				padding-bottom: 40px;
 			}
 			@media screen and (max-width: 700px), (max-height: 500px) {
 				.wrapper {

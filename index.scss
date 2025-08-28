@@ -4,6 +4,10 @@ body {
 	// background: #e1e7ec;
 	background: white;
 	font-family: "Bitter", serif;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: auto;
 }
 
 * {
@@ -20,13 +24,14 @@ body {
 }
 
 .wrapper {
-	width: 100%;
+	width: auto;
+	height: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-height: 100vh;
-	// background: url(../img/bg.png) no-repeat center;
 	background-size: cover;
+	overflow: hidden;
+	padding-bottom: 40px;
 	@media screen and (max-width: 700px), (max-height: 500px) {
 		flex-wrap: wrap;
 		flex-direction: column;
@@ -41,7 +46,7 @@ body {
 	// box-shadow: 0px 55px 105px 10px rgba(76, 70, 124, 0.35);
 	box-shadow: 0px 15px 35px -5px rgba(50, 88, 130, 0.32);
 	border-radius: 15px;
-	padding: 30px;
+	padding: 0px;
 	@media screen and (max-width: 576px), (max-height: 500px) {
 		width: 95%;
 		padding: 20px;
